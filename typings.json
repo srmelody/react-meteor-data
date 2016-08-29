@@ -1,0 +1,10 @@
+{
+  "name": "react-meteor-data",
+  "version": "0.2.9",
+  "main": "main.d.ts",
+  "homepage": "https://atmospherejs.com/meteor/react-meteor-data",
+  "global": true,
+  "globalDependencies": {
+    "react": "registry:dt/react#0.14.0+20160817201227"
+  }
+}
