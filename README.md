@@ -1,3 +1,3 @@
 ## Installation
 
-`typings install github:meteor-typings/react-meteor-data#11333f1d00a3622ddf52340f6ff525bc30d8a827 --global`
+`typings install github:meteor-typings/react-meteor-data#0a089cf686de6af92170a72a18735351e480fcd9 --global`
