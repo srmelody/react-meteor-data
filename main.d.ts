@@ -10,7 +10,7 @@ declare module 'meteor/react-meteor-data' {
 
   type ComponentConstructor<P> = React.ComponentClass<P> | React.StatelessComponent<P>
 
-  export function createContainer<InP, D, OutP extends (InP & D)>(
+  export function createContainer<InP, D, OutP)>(
     options: (props: InP) => D | {getMeteorData: (props: InP) => D, pure?: boolean},
     reactComponent: ComponentConstructor<OutP>)
     : ComponentConstructor<InP>;
